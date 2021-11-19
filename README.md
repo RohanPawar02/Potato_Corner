@@ -8,9 +8,9 @@ Forum App, with a frontend built in React & Redux and a backend built in Django 
 
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
 
-Check out [FRONTEND LIVE DEMO](https://potato-corner-frontend.herokuapp.com/) here!!
+Check out [FRONTEND LIVE DEMO](https://frontend-potato-corner.herokuapp.com/) here!!
 
-Check out [API LIVE DEMO](https://potato-corner-backend.herokuapp.com/) here!!
+Check out [API LIVE DEMO](https://backend-potato-corner.herokuapp.com/) here!!
 
 ## Tech used
 
@@ -24,7 +24,7 @@ Check out [API LIVE DEMO](https://potato-corner-backend.herokuapp.com/) here!!
 1. Git Clone
 
 ```
-git clone git@github.com:Tech-i-s/techis-wd-forum-django-react.git
+git clone https://github.com/uzmashiraaz/Potato_Corner.git
 ```
 
 2. Backend setting
