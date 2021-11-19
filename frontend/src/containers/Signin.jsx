@@ -34,43 +34,44 @@ const Signin = () => {
             <section class="popup">
                 <div class="popup-inner">
                     <div class="popup-preview">
-                        
-                            <span onClick={closeButton}>
-                                <img src={CrossX} class="close" />
-                            </span>
-                            <div class="input">
-                                <h2>PotaoCorner</h2>
-                                <h1>SIGN IN</h1>
-                                <input
-                                    type="email"
-                                    onChange={inputEmail}
-                                    required
-                                    placeholder="Email address"
-                                    value={email}
-                                />{' '}
-                                <br />
-                                <br />
-                                <input
-                                    type="password"
-                                    onChange={inputPassword}
-                                    required
-                                    placeholder="Password"
-                                    vlaue={password}
-                                />
-                            </div>
+                        <span onClick={closeButton}>
+                            <a href="/">
+                                {' '}
+                                <img src={CrossX} class="close" />{' '}
+                            </a>
+                        </span>
+                        <div class="input">
+                            <h2>PotaoCorner</h2>
+                            <h1>SIGN IN</h1>
+                            <input
+                                type="email"
+                                onChange={inputEmail}
+                                required
+                                placeholder="Email address"
+                                value={email}
+                            />{' '}
                             <br />
-
-                            <button class="button" onClick={signInButton}>
-                                SIGN IN
-                            </button>
-                            <p class="bottom">
-                                Not a Member?{' '}
-                                <a href="/signup">
-                                    <u>Join Us.</u>
-                                </a>{' '}
-                            </p>
+                            <br />
+                            <input
+                                type="password"
+                                onChange={inputPassword}
+                                required
+                                placeholder="Password"
+                                vlaue={password}
+                            />
                         </div>
-                    
+                        <br />
+
+                        <button class="button" onClick={signInButton}>
+                            SIGN IN
+                        </button>
+                        <p class="bottom">
+                            Not a Member?{' '}
+                            <a href="/signup">
+                                <u>Join Us.</u>
+                            </a>{' '}
+                        </p>
+                    </div>
                 </div>
             </section>
         </>

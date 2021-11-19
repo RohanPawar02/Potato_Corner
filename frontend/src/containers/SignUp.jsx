@@ -36,7 +36,9 @@ const SignUp = () => {
                 <div class="popup-inner">
                     <div class="popup-preview">
                         <span onClick={closeButton}>
-                            <img src={CrossX} class="close" />
+                            <a href="/">
+                                <img src={CrossX} class="close" />{' '}
+                            </a>
                         </span>
                         <div class="input">
                             <h2>PotatoCorner</h2>

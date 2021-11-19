@@ -93,21 +93,21 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'danck7oee1a9ac',
-        'USER': 'gexuziamxdlkai',
+        'NAME': 'd5i5g0e8hkps9n',
+        'USER': 'vpdukhgtolvwqu',
         'PORT': 5432,
-        'HOST': 'ec2-18-215-96-54.compute-1.amazonaws.com',
-        'PASSWORD': '3b65b793beabb2a11887e0c38a96c94261e29a15210dd867598102a9a2b772d1',
+        'HOST': 'ec2-3-208-157-78.compute-1.amazonaws.com',
+        'PASSWORD': '9b362a4f7691f69d43a382fa2ce2d8bd511113814dedc5337e56ffbfd7514efc',
     }
 }
 
 # Local Database
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 # Heroku PostgreSQL Database
 django_heroku.settings(locals())
@@ -167,3 +167,4 @@ cloudinary.config(
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
+
