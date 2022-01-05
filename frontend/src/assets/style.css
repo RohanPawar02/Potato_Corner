@@ -77,11 +77,12 @@ body {
 } */
 
 .main .navbar ul {
-    list-style: none;
+list-style: none;
+
     display: flex;
     float: right;
     color: #f8cd3b;
-    margin: 2% 20%;
+    margin: 2% 9%;
     text-decoration: none;
 }
 .main .nav img {
